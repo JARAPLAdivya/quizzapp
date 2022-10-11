@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <bold>10 seconds</bold> per each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title"> Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">10</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+            <button class="viewAnswers">View Answers</button>
+        </div>
+    </div>
+    <!-- Ques and Ans -->
+      <div class="faqs">
+        <h1>Question And Answers</h1>
+        <div class="block">
+          <p class="ques">What does HTML stand for?</p>
+          <label class="answer1" for="botton">⏷</label>
+          <input class="botton" type="checkbox">
+        </div>
+        <p id = "answer1s" class=" answer">Hyper Text Markup Language</p>
+        <div class="block">
+          <p class="ques">What does CSS stand for?</p>
+          <label class="answer2" for="botton">⏷</label>
+          <input class="botton" type="button">
+        </div>
+        <p id = "answer2s" class=" answer">Cascading Style Sheet</p>
+        <div class="block">
+          <p class="ques"> What does PHP stand for?</p>
+          <label class="answer3" for="botton">⏷</label>
+          <input class="botton" type="button">
+        </div>
+        <p id = "answer3s" class="answer">Hypertext Preprocessor</p>
+        <div class="block">
+          <p class="ques">What does SQL stand for?</p>
+          <label class="answer4" for="botton">⏷</label>
+          <input class="botton" type="button">
+        </div>
+        <p id = "answer4s" class="answer">Structured Query Language.</p>
+        <div class="block">
+          <p class="ques">What does XML stand for?</p>
+          <label class="answer5" for="botton">⏷</label>
+          <input class="botton" type="button">
+        </div>
+        <p id = "answer5s" class=" answer">eXtensible Markup Language</p>
+        <div class="block">
+            <p class="ques">Choose the correct html element tag with largest heading</p>
+            <label class="answer6" for="botton">⏷</label>
+            <input class="botton" type="button">
+          </div>
+          <p id = "answer6s" class=" answer">h1</p>
+          <div class="block">
+            <p class="ques">An array with a numeric index is known as ___________ in PHP</p>
+            <label class="answer7" for="botton">⏷</label>
+            <input class="botton" type="button">
+          </div>
+          <p id = "answer7s" class=" answer">Numeric array</p>
+          <div class="block">
+            <p class="ques">Which of the following is not a 3 tier architecture?</p>
+            <label class="answer8" for="botton">⏷</label>
+            <input class="botton" type="button">
+          </div>
+          <p id = "answer8s" class=" answer">Communication layer</p>
+          <div class="block">
+            <p class="ques">Which of the following is not a type of Firewalls?</p>
+            <label class="answer9" for="botton">⏷</label>
+            <input class="botton" type="button">
+          </div>
+          <p id = "answer9s" class=" answer">None</p>
+          <div class="block">
+            <p class="ques">WWW stands for ?</p>
+            <label class="answer10" for="botton">⏷</label>
+            <input class="botton" type="button">
+          </div>
+          <p id = "answer10s" class=" answer">World Wide Web</p>
+          <input class="back" type="button" value="back">
+      </div>
+    <script type=text/javascript src="quiz.js"></script>
+    <script type=text/javascript src="quiz2.js"></script>
+
+</body>
+</html>
+</html>
